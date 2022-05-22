@@ -41,5 +41,11 @@ For the imbalance, it wasnâ€™t zero all the time except for the 1 core, but itâ€
 
 ## 1. OpenMP method:
 
-The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran
+This task introduces the OpenMP in parallelizing heavy complicated tasks and compares it to MPI. Although it looks shorter in coding, but we give the computer a lot of control which may not be optimal in most cases.
+Below are the timings for water energy calculation task done in MPI, and different OpenMP methods including Static, Dynamic, Guided, and Auto.
+
+
+
+
+![](scheduling.PNG)
 
